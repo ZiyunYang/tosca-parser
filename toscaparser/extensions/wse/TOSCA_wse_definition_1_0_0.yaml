@@ -816,12 +816,6 @@ policy_types:
       unhealthy_threshold:
         type: integer
         required: false
-      strategy:
-        type: string
-        required: false
-      recreate_on_quorum_strategy_config:
-        type: tosca.data_types.wise2c.HealthCheckQuorum
-        required: false
       healthy_threshold:
         type: integer
         required: false
